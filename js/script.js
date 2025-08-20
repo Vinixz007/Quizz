@@ -19,10 +19,10 @@ botaoIniciar.addEventListener('click', iniciaJogo);
 function iniciaJogo() {
     atual = 0;
     historiaFinal = "";
-    telaInicial.style.display = 'none';  // Oculta a tela inicial
-    caixaPerguntas.classList.add("mostrar");  // Exibe a caixa de perguntas
-    caixaAlternativas.classList.add("mostrar");  // Exibe as alternativas
-    caixaResultado.classList.remove("mostrar");  // Garante que o resultado está oculto
+    telaInicial.style.display = 'none';
+    caixaPerguntas.classList.remove("mostrar");
+    caixaAlternativas.classList.remove("mostrar");
+    caixaResultado.classList.remove("mostrar");
     mostraPergunta();
 }
 
@@ -32,8 +32,8 @@ function mostraPergunta() {
         return;
     }
     perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado;  // Exibe a pergunta
-    caixaAlternativas.textContent = "";  // Limpa as alternativas
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = "";
     mostraAlternativas();
 }
 
@@ -59,27 +59,24 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = `Em 2049, ${nome}`;  // Exibe o nome no resultado
-    textoResultado.textContent = historiaFinal;  // Exibe o histórico de afirmações
-    caixaAlternativas.textContent = "";  // Limpa as alternativas
-    caixaResultado.classList.add("mostrar");  // Exibe a caixa de resultado
+    caixaPerguntas.textContent = `Em 2049, ${nome}`;
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+    caixaResultado.classList.add("mostrar");
+    botaoJogarNovamente.addEventListener("click", jogaNovamente);
 }
-
-botaoJogarNovamente.addEventListener("click", jogaNovamente);
 
 function jogaNovamente() {
     atual = 0;
     historiaFinal = "";
-    caixaResultado.classList.remove("mostrar");  // Oculta a caixa de resultado
+    caixaResultado.classList.remove("mostrar");
     mostraPergunta();
 }
 
 function substituiNome() {
-    // Substitui o "você" pelo nome nas perguntas
     for (const pergunta of perguntas) {
         pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
     }
 }
 
-// Chama a função para substituir o nome nas perguntas
 substituiNome();

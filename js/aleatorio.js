@@ -1,9 +1,9 @@
-const nomes = ["Fernanda", "Giuliana", "Maria Eduarda", "Marcelo", "Amanda", "Gustavo", "Gabriel"];
+const nomes = ["Périola", "Joacir", "Otavio", "Franciele", "Adrielly", "Victória", "Gabriel"];
 
-export function aleatorio(lista) {
-    const posicao = Math.floor(Math.random() * lista.length);
+export function aleatorio (lista){
+    const posicao = Math.floor(Math.random()* lista.length);
     return lista[posicao];
 }
 
-// Exporta o nome aleatório obtido da função
-export const nome = aleatorio(nomes);
+export const nome = aleatorio(nomes)
+
