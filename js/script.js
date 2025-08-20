@@ -32,8 +32,8 @@ function mostraPergunta() {
         return;
     }
     perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = "";
+    caixaPerguntas.innerHTML = perguntaAtual.enunciado; // Use innerHTML para manipulação mais flexível
+    caixaAlternativas.innerHTML = ""; // Limpa alternativas anteriores
     mostraAlternativas();
 }
 
@@ -47,8 +47,8 @@ function mostraAlternativas() {
 }
 
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
-    historiaFinal += afirmacoes + " ";
+    const afirmacao = aleatorio(opcaoSelecionada.afirmacao);  // Aqui ele seleciona uma afirmação aleatória
+    historiaFinal += afirmacao + " ";
     if (opcaoSelecionada.proxima !== undefined) {
         atual = opcaoSelecionada.proxima;
     } else {
@@ -61,7 +61,7 @@ function respostaSelecionada(opcaoSelecionada) {
 function mostraResultado() {
     caixaPerguntas.textContent = `Em 2049, ${nome}`;
     textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
+    caixaAlternativas.innerHTML = "";
     caixaResultado.classList.add("mostrar");
     botaoJogarNovamente.addEventListener("click", jogaNovamente);
 }
@@ -75,8 +75,15 @@ function jogaNovamente() {
 
 function substituiNome() {
     for (const pergunta of perguntas) {
+        // Substitui no enunciado
         pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+        
+        // Substitui também nas alternativas
+        for (const alternativa of pergunta.alternativas) {
+            alternativa.texto = alternativa.texto.replace(/você/g, nome);
+        }
     }
 }
 
-substituiNome();
+substituiNome(); // Substitui o nome de todas as perguntas e alternativas no início
+

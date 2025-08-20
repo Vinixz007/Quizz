@@ -168,3 +168,27 @@ export const perguntas = [
         ]
     }
 ];
+
+// Certifique-se de que a navegação entre perguntas leva à próxima pergunta corretamente.
+function navegarPergunta(indiceAtual) {
+    if (indiceAtual < perguntas.length) {
+        // Exiba a pergunta atual
+        const perguntaAtual = perguntas[indiceAtual];
+        console.log(perguntaAtual.enunciado);
+        // Exiba as alternativas
+        perguntaAtual.alternativas.forEach(alt => {
+            console.log(alt.texto);
+        });
+    } else {
+        console.log("O jogo terminou.");
+    }
+}
+
+// Início do jogo
+let indicePergunta = 0;
+navegarPergunta(indicePergunta);
+
+// Quando uma alternativa for escolhida
+// Exemplo: escolha da primeira alternativa da primeira pergunta
+indicePergunta = perguntas[indicePergunta].alternativas[0].proxima;
+navegarPergunta(indicePergunta);
