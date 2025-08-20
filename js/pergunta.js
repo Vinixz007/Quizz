@@ -1,172 +1,169 @@
 export const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Após anos de dificuldades financeiras, o Vasco da Gama encontra-se em uma crise. A diretoria decide investir em novas tecnologias e buscar alternativas para recuperar a saúde financeira do clube. Qual seria a sua primeira ação?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Investir em uma reestruturação financeira rigorosa e cortar gastos",
                 afirmacao: [
-                    "No início ficou com medo do que essa tecnologia pode fazer.",
-                    "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
+                    "Decidiu focar na austeridade financeira para garantir a sobrevivência do clube.",
+                    "Viu que cortar gastos poderia ser doloroso no início, mas essencial a longo prazo."
                 ],
                 proxima: 1,
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Investir no marketing e em novas parcerias para fortalecer a marca Vasco",
                 afirmacao: [
-                    "Quis saber como usar IA no seu dia a dia.",
-                    "Pensou que IA pode ajudar em tarefas da sua vida."
+                    "Acreditou que fortalecer a marca e atrair novos patrocinadores poderia ser a chave para uma recuperação mais rápida.",
+                    "Percebeu que a base de fãs do Vasco ainda é forte e que o clube poderia tirar proveito disso."
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "Utilizar uma IA pode ser aterrorizante mesmo, e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "A torcida está confusa sobre a estratégia da diretoria. Em uma reunião com os sócios, qual seria sua principal defesa sobre o investimento no marketing e parcerias?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "A recuperação financeira depende da atratividade do clube no mercado e da busca por novos parceiros comerciais.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
+                    "Destacou a importância de atrair novos patrocinadores e expandir a visibilidade do clube internacionalmente.",
+                    "Acreditou que uma imagem renovada poderia ajudar a atrair mais investimentos e engajamento da torcida."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "A tradição do clube e sua base de torcedores será suficiente para suportar essa fase, e a prioridade deve ser na formação de novos jogadores.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                    "Apostou em uma recuperação mais gradual, com foco na base e no desenvolvimento de novos talentos.",
+                    "Percebeu que o Vasco sempre teve um dos maiores centros de formação de atletas e queria recuperar essa essência."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Um chat com IA pode ser uma boa alternativa para realizar tarefas do dia a dia e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "O Vasco, depois de focar no marketing e parcerias, vê uma recuperação financeira, mas os resultados no campo ainda são inconstantes. Qual é o próximo passo para garantir que o time volte a ser competitivo?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Investir em novos jogadores experientes para garantir um elenco forte",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
-                ],
-                proxima: 3,
-            },
-            {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
-                ],
-                proxima: 4,
-            },
-        ]
-    },
-    {
-        enunciado: "Ferramentas de busca que utilizam IA podem facilitar muito nosso processo de busca por informações. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
-        alternativas: [
-            {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Acreditou que a experiência poderia ajudar a dar estabilidade ao time, tanto dentro quanto fora de campo.",
+                    "Decidiu que, para voltar a competir com os grandes, o Vasco precisaria de líderes com experiência internacional."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Focar na formação de talentos da base e dar mais espaço aos jovens jogadores",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Optou por reforçar o time com jovens promissores, acreditando que essa é a essência histórica do Vasco.",
+                    "Viu que a formação de novos talentos poderia ser a solução sustentável e a longo prazo para o clube."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Utilizar informações próprias traz um toque pessoal ao nosso trabalho. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "O time começa a se destacar, mas a pressão da torcida aumenta. A diretoria decide investir em reforços para garantir a participação na Libertadores do ano seguinte. Qual seria sua decisão?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Manter o foco no desenvolvimento da base e dar mais chances aos jogadores jovens.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Acreditou que, mesmo com pressão, a verdadeira força do clube estava na sua base de formação.",
+                    "Entendeu que, a longo prazo, a consistência e a confiança nos jovens jogadores seriam cruciais para o sucesso."
                 ],
-                proxima: 5,
+                proxima: 7,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Investir em reforços de peso para garantir a classificação e aumentar as chances de títulos imediatos.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Decidiu que, nesse momento, o foco deveria ser em resultados rápidos para reconquistar a confiança da torcida.",
+                    "Viu que reforços de peso poderiam garantir uma temporada sólida e a participação na competição internacional."
                 ],
-                proxima: 6,
+                proxima: 8,
             },
         ]
     },
     {
-        enunciado: "Novas tecnologias trazem novos desafios, por isso após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Com a combinação de jovens jogadores e reforços experientes, o Vasco vai para a Libertadores. Agora, o desafio é manter o time competitivo no cenário internacional. O que você faria para garantir a evolução contínua do clube?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Focar na melhoria da infraestrutura do clube e na criação de um centro de excelência para treinamentos.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Investiu em melhorias na estrutura de treinamento para garantir o crescimento sustentável dos atletas.",
+                    "Acreditou que uma infraestrutura de ponta ajudaria o time a competir com as melhores equipes do mundo."
                 ],
-                proxima: 7,
+                proxima: 9,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Aumentar o investimento em tecnologia e análise de desempenho para otimizar o rendimento dos jogadores.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Buscou melhorar a performance do time através de tecnologia de ponta, como análise de dados e inteligência artificial.",
+                    "Percebeu que as tecnologias de performance poderiam ser o diferencial em competições internacionais."
                 ],
-                proxima: 7,
+                proxima: 10,
             },
         ]
     },
     {
-        enunciado: "É muito importante refletir sobre os trabalhadores do futuro. Por isso a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Após algumas temporadas, o Vasco começa a disputar novamente títulos nacionais e internacionais, e a torcida volta a lotar o Maracanã. Qual seria sua próxima ação para garantir a continuidade do sucesso?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Expandir a marca Vasco da Gama para novos mercados internacionais, buscando parcerias globais.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Viu a expansão da marca como uma forma de tornar o Vasco uma potência mundial, além de fortalecer as finanças do clube.",
+                    "Buscou parcerias com clubes e empresas internacionais para garantir uma presença forte no mercado global."
                 ],
-                proxima: 7,
+                proxima: 11,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Focar na estabilidade financeira e no fortalecimento da base, sem pressa para mudanças radicais.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Decidiu que a prioridade seria consolidar o crescimento sustentável, sem riscos de desestabilizar a estrutura.",
+                    "Apostou em um crescimento gradual para garantir o sucesso duradouro do Vasco."
                 ],
-                proxima: 7,
+                proxima: 12,
             },
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "O Vasco alcançou novamente sua grandeza, com títulos e uma base sólida de fãs e jogadores. Agora, o que você faria para garantir que o clube se mantenha competitivo no futuro?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Investir na formação de novos talentos e criar um centro de excelência para treinamento de jovens.",
                 afirmacao: [
-                    "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
-                    "Ainda acha que os meios de desenho tradicionais são mais eficazes para a criatividade, por isso vem estimulando pessoas em suas redes sociais a fazer pintura em aquarela."
+                    "Viu que o futuro do Vasco estava na formação constante de novos jogadores que continuariam a tradição do clube.",
+                    "Decidiu criar um centro de excelência, focando no futuro e na longevidade do clube."
                 ],
+                proxima: 13,
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Focar em parcerias estratégicas com clubes e empresas para manter o time competitivo internacionalmente.",
                 afirmacao: [
-                    "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!",
-                    "Compartilhou artes em redes sociais como forma de ensinar como se comunicar através da arte.",
-                    "Percebeu que muitas pessoas têm dificuldade em expressar suas ideias desenhando e acha que a IA é capaz de empoderar essas pessoas a tirarem ideias do papel."
+                    "Viu que parcerias estratégicas poderiam garantir que o clube mantivesse um nível de competitividade internacional.",
+                    "Apostou em expandir as parcerias para garantir que o Vasco estivesse sempre na vanguarda do futebol."
                 ],
+                proxima: 14,
+            },
+        ]
+    },
+    {
+        enunciado: "Com o Vasco consolidado como um dos maiores clubes do Brasil e do mundo, qual será o próximo desafio para garantir o legado do clube?",
+        alternativas: [
+            {
+                texto: "Criar uma academia de futebol de excelência que garanta a continuidade do sucesso do clube.",
+                afirmacao: [
+                    "Apostou na formação de jogadores de elite que garantiriam o futuro brilhante do clube.",
+                    "Viu a academia como um passo fundamental para manter o Vasco no topo por muitas décadas."
+                ],
+                proxima: 15,
+            },
+            {
+                texto: "Expandir a marca Vasco da Gama para novos mercados internacionais e novos patrocínios.",
+                afirmacao: [
+                    "Decidiu que o futuro estava na globalização do clube e na busca por novos mercados.",
+                    "Focou em tornar o Vasco uma marca global, com impacto em diferentes continentes."
+                ],
+                proxima: 16,
             },
         ]
     }
