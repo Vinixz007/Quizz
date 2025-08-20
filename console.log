@@ -1,0 +1,8 @@
+const selecionarAlternativa = (alternativaIndex) => {
+    console.log(`Alternativa selecionada: ${alternativaIndex}`);
+    const alternativaSelecionada = perguntas[perguntaIndex].alternativas[alternativaIndex];
+    console.log(`Proxima pergunta: ${alternativaSelecionada.proxima}`);
+    
+    setRespostas([...respostas, alternativaSelecionada]);
+    setPerguntaIndex(alternativaSelecionada.proxima);
+};
